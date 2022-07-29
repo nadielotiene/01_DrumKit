@@ -1,0 +1,63 @@
+body, html {
+    min-height: 100vh;
+    min-width: 100%;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    background: -webkit-linear-gradient(#F273B0,#C240DB, #9B0CF2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.key {
+    border-radius: 5px;
+    margin: 5px;
+    min-height: 200px;
+    min-width: 200px;
+    font-size: 1rem;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(0.98);
+    border-color: gray;
+    box-shadow: 0 0 10px black;
+}
+
+kbd {
+    font-size: 10px;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
+    color: rgb(51, 49, 49);
+    display: flex;
+    align-content: flex-start; 
+    justify-content: flex-start;
+}
+
+#grad3 {
+    background-image: radial-gradient(circle, #F273B0, #F253B0, #F20CB0);
+}
+
+#grad2 {
+    background-image: radial-gradient(circle, #C276DB, #C240DB, #C200DB);
+}
+
+#grad1 {
+    background-image: radial-gradient(circle, #9B86F2, #9B4EF2, #9B0CF2);
+}
